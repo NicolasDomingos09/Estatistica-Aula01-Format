@@ -4,8 +4,7 @@ import numpy as np
 import pandas as pd
 
 #importar csv para dados
-dados = pd.read_csv('CotacoesMoedasPeriodo.csv', sep = ';', encoding = 'UTF-8', header = None)
-
+dados = pd.read_csv('./Arquivos/CotacoesMoedasPeriodo.csv', sep = ';', encoding = 'UTF-8', header = None)
 #.shape retorna tamanho
 d = dados.shape
 print(d, '\n')
@@ -36,4 +35,4 @@ d = dados1.head()
 print (d, '\n')
 
 #.to_csv salva o objeto em arquivo csv 
-dados1.to_csv('dados_tratados_dolar.csv', encoding = 'iso-8859-1', index = False)
+dados1.to_csv('./Arquivos/dados_tratados_dolar.csv', encoding = 'iso-8859-1', index = False)
