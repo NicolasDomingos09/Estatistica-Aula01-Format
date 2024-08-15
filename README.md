@@ -4,4 +4,5 @@
 ### Conteúdo aplicado na aula:
 Tratamento e formação de dados vindo de um arquvio csv e salvamento em novo arquivo.
 
-### Recursos utilizado: POO, lógica e estrutura csv.
+### Recursos utilizado: 
+POO, lógica e estrutura csv.
